@@ -39,7 +39,7 @@ class Hero {
 
 int main ()
 {
-    // Static Allocation of Object
+    // Static Allocation of an Object
     Hero h1 ;
     h1.setLevel('A') ;
     cout<<"Static Level: "<<h1.getLevel()<<endl ;
