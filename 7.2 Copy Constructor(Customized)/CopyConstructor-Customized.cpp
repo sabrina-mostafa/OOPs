@@ -51,6 +51,7 @@ int main ()
 
     // Copy Constructor called  (Copy of h1 into h2)
     Hero h2(h1) ;
+    // or Hero h2 = h1  ;
 
     h2.display() ;
 
