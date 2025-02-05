@@ -20,6 +20,7 @@ class Hero {
 public:
     int health=10 ;  // this == (h1.health)
 
+    // Parameterized Constructor
     Hero(int health) {
         cout<<"Address of this pointer: "<<this<<endl ;
         this->health = health ;
