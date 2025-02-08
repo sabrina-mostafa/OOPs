@@ -65,5 +65,70 @@ struct B {
 🔹 **Memory saved:** `4 bytes`  
 
 
+### *Constructor:*
+---
+- Same function name as class
+- Returns nothing(not even void), No return type
+- As soon as we create Object, the default constructor is invoked.
+- When we write any Constructor(default/parameterized) the Built-in dafault one is **Deleted** automatically.
+
+### *This Keyword:*
+---
+    It is a pointer that points to the current object.
+
+### *Copy Constructor:*
+---
+- Whenever a **Class** is declared, a Copy Constructor is created automatically.
+- Here, **Pass by Reference** is applied.
+- Pass by value creates an infinite loop as it creates copys of values that calles the copy constructor again and again.
+
+### *Shallow Copy:*
+---
+- axcesses the **same memory.**
+- In the **Default Copy-Constructor** just the address is copied.
+
+### *Deep Copy:*
+---
+- In the **Customized Copy-Constructor** new address/mmory is allocated.
+
+### *Destructor:*
+---
+- Memory Deallocator
+- Same name as Class
+- No return type
+- No i/p parameters
+- **Static Alocation:**
+  - Destructor is called Automatically.
+- **Dynamic Alocation:**
+  - Destructor is called Menually. (synatx: **delete obj**)
+
+### *Static Keyword*
+---
+    It creates Data Members that belongs to Class, and there is NO NEED OF Object to access these Static Data Members.
+
+    1. No need to create object to access the member
+    
+    2. Initialization is done Outside class
+    
+    3. Initialization Syntax: dataType className :: staticDataMemberName = 10(value)
+       Example:  int Hero :: timeToComplete = 10 ;
+    
+    4. Access Syntax:  className::staticDataMemberName
+       Example: cout<<Hero::timeToComplete<<endl ;
+
+### *Static Function*
+---
+- No Need to Create Object
+- They don't have this keyword (no object, that's why)
+- Can Access ONLY Static Data Members 
+
+
+
+
+
+
+
+
+
 
 
